@@ -18,14 +18,10 @@ Usage
 You can start up service as module and put file with list of metrics:
 
 
-.. code-block:: bash
-
     $ python -m prometheus_aioredis_metric_extractor --source test_metric_list.txt  --redis-dsn redis://localhost:6380 --port 8987
 
 where "source" is tab separated file with metric information:
 
-
-.. code-block:: bash
 
     counter simple_counter  some doc string ololo
     histogram   simple_histogram    0,100,200   Simple Histogram Documentation
@@ -42,7 +38,6 @@ Columns
 
 Or you can use Registry in code:
 
-.. code-block:: python
 
     from prometheus_aioredis_metric_extractor import Extractor
     from mypackage import registry
