@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='prometheus_aioredis_metric_extractor',
     packages=['prometheus_aioredis_metric_extractor'],
-    version='0.1.0',
+    version='0.1.1',
     description='',
     author='Belousov Alex',
     author_email='belousov.aka.alfa@gmail.com',
