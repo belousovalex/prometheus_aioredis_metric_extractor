@@ -1,0 +1,4 @@
+counter	simple_counter	some doc string ololo
+histogram	simple_histogram	0,100,200	Simple Histogram Documentation
+gauge	simple_gauge	gauge doc
+summary	simple_summary	summary doc
